@@ -1,12 +1,14 @@
 package com.crud.ctrl;
 
 import java.io.ByteArrayInputStream;
+import java.io.IOException;
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.InputStreamResource;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +23,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.crud.enty.User;
 import com.crud.repo.UserRepo;
+import com.crud.service.QRCodeGenrator;
 import com.crud.service.UserCrudService;
+import com.google.zxing.WriterException;
 import com.itextpdf.text.DocumentException;
 
 
@@ -34,6 +38,9 @@ public class AppController {
 	
 	@Autowired
 	UserCrudService userCrudService;
+	
+	@Autowired
+	QRCodeGenrator qRCodeGenrator;
 	
 
 	@Autowired
@@ -95,6 +102,24 @@ public class AppController {
 		
 		return ResponseEntity.ok().headers(hd).contentType(MediaType.APPLICATION_PDF).body(new InputStreamResource(bs));	
 	}
+	
+	
+	@GetMapping(value="/genrateqr/{info}")
+	public HttpEntity<byte[]> getQR( @PathVariable(value="info") String info) throws DocumentException, WriterException, IOException {
+		
+		logger.info("downloading started");
+		
+		byte[] br=qRCodeGenrator.generateQRImage(info);
+		
+		HttpHeaders ht= new HttpHeaders();
+		ht.setContentType(MediaType.IMAGE_PNG);
+		ht.setContentLength(br.length);
+		
+		return new HttpEntity<byte[]>(br,ht) ;	
+	}
+	
+	
+	
 	
 	
 
