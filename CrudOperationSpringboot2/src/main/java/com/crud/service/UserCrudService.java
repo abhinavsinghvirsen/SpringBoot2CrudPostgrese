@@ -62,7 +62,9 @@ public class UserCrudService {
 	public User getUser(Long id) {
 		
 		User obj= userRepo.findById(id).get();
-		
+		if(obj==null) {
+			throw new NullPointerException();
+		}
 		return obj;
 	}
 	

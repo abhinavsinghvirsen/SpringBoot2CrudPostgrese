@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.crud.enty.User;
+import com.crud.exceptionhandler.IdFormatException;
 import com.crud.repo.UserRepo;
 import com.crud.service.QRCodeGenrator;
 import com.crud.service.UserCrudService;
@@ -74,16 +75,22 @@ public class AppController {
 	
 	
 	@DeleteMapping("/delete/{id}")
-	public String deleteUser(@PathVariable( value="id" )Long id) {
+	public String deleteUser(@PathVariable( value="id" )Long id) throws IOException {
 		
-		
+		if(id<2) {
+		throw new IOException();
+		}
 		return userCrudService.deleteUser(id);	
 	
 	}
 	
 	@GetMapping("/getuser/{id}")
-	public User getUser(@PathVariable( value="id" )Long id) {
+	public User getUser(@PathVariable( value="id" )Long id) throws IdFormatException {
 		
+		if(id<2) {
+			throw new IdFormatException(String.valueOf(id), "please chosse id greater then 2");
+			
+		}
 		
 		return userCrudService.getUser(id);	
 	
