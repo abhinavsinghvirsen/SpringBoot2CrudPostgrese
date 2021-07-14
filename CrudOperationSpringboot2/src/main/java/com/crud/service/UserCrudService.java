@@ -7,6 +7,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import com.crud.ctrl.AppController;
@@ -27,7 +29,8 @@ public class UserCrudService {
 	@Autowired
 	UserRepo userRepo; 
 	
-	
+	//clear cache which we created while geting userlist
+	@CacheEvict(value="getusersfromcache", allEntries = true)
 	public String saveUser(User usr) {
 		logger.trace("i am in side save user");
 		userRepo.save(usr);
@@ -56,6 +59,7 @@ public class UserCrudService {
 	
 	public List<User> getUsers(){
 		
+		logger.info("inside method getusers");
 		return (List<User>) userRepo.findAll();
 	}
 	

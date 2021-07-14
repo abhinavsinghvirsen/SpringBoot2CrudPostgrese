@@ -1,73 +1,237 @@
-"2021-07-03 22:41:19 - Starting CrudOperationSpringboot2ApplicationTests using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 2946 (started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
-""2021-07-03 22:41:19 - No active profile set, falling back to default profiles: default
-""2021-07-03 22:41:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2021-07-03 22:41:20 - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
-""2021-07-03 22:41:20 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$23b98e78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-""2021-07-03 22:41:20 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-""2021-07-03 22:41:21 - HikariPool-1 - Starting...
-""2021-07-03 22:41:21 - HikariPool-1 - Start completed.
-""2021-07-03 22:41:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2021-07-03 22:41:21 - HHH000412: Hibernate ORM core version 5.4.32.Final
-""2021-07-03 22:41:21 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2021-07-03 22:41:21 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-""2021-07-03 22:41:22 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2021-07-03 22:41:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2021-07-03 22:41:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2021-07-03 22:41:23 - Started CrudOperationSpringboot2ApplicationTests in 4.168 seconds (JVM running for 5.209)
-""2021-07-03 22:41:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2021-07-03 22:41:23 - HikariPool-1 - Shutdown initiated...
-""2021-07-03 22:41:23 - HikariPool-1 - Shutdown completed.
-""2021-07-03 22:43:38 - Starting CrudOperationSpringboot2ApplicationTests using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 2987 (started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
-""2021-07-03 22:43:38 - No active profile set, falling back to default profiles: default
-""2021-07-03 22:43:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2021-07-03 22:43:39 - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
-""2021-07-03 22:43:39 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$411fe4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-""2021-07-03 22:43:39 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-""2021-07-03 22:43:39 - HikariPool-1 - Starting...
-""2021-07-03 22:43:40 - HikariPool-1 - Start completed.
-""2021-07-03 22:43:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2021-07-03 22:43:40 - HHH000412: Hibernate ORM core version 5.4.32.Final
-""2021-07-03 22:43:40 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2021-07-03 22:43:40 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-""2021-07-03 22:43:41 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2021-07-03 22:43:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2021-07-03 22:43:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2021-07-03 22:43:42 - Started CrudOperationSpringboot2ApplicationTests in 4.239 seconds (JVM running for 5.173)
-""2021-07-03 22:43:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
-""2021-07-03 22:43:42 - HikariPool-1 - Shutdown initiated...
-""2021-07-03 22:43:42 - HikariPool-1 - Shutdown completed.
-""2021-07-03 22:44:14 - Starting CrudOperationSpringboot2Application using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 3008 (/Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2/target/classes started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
-""2021-07-03 22:44:14 - No active profile set, falling back to default profiles: default
-""2021-07-03 22:44:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-""2021-07-03 22:44:15 - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-""2021-07-03 22:44:15 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$62e3bb03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-""2021-07-03 22:44:15 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-""2021-07-03 22:44:15 - Tomcat initialized with port(s): 8080 (http)
-""2021-07-03 22:44:15 - Starting service [Tomcat]
-""2021-07-03 22:44:15 - Starting Servlet engine: [Apache Tomcat/9.0.48]
-""2021-07-03 22:44:15 - Initializing Spring embedded WebApplicationContext
-""2021-07-03 22:44:15 - Root WebApplicationContext: initialization completed in 981 ms
-""2021-07-03 22:44:15 - HikariPool-1 - Starting...
-""2021-07-03 22:44:15 - HikariPool-1 - Start completed.
-""2021-07-03 22:44:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
-""2021-07-03 22:44:16 - HHH000412: Hibernate ORM core version 5.4.32.Final
-""2021-07-03 22:44:16 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-""2021-07-03 22:44:16 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-""2021-07-03 22:44:16 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-""2021-07-03 22:44:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
-""2021-07-03 22:44:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-""2021-07-03 22:44:17 - Tomcat started on port(s): 8080 (http) with context path ''
-""2021-07-03 22:44:17 - Started CrudOperationSpringboot2Application in 2.873 seconds (JVM running for 3.337)
-""2021-07-03 22:44:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2021-07-03 22:44:41 - Initializing Servlet 'dispatcherServlet'
-""2021-07-03 22:44:41 - Completed initialization in 1 ms
-""2021-07-03 22:44:41 - info
-""2021-07-03 22:44:41 - warn
-""2021-07-03 22:44:41 - Erroro
-""2021-07-03 22:44:51 - info
-""2021-07-03 22:44:51 - warn
-""2021-07-03 22:44:51 - Erroro
-""2021-07-03 22:44:56 - info
-""2021-07-03 22:44:56 - warn
-""2021-07-03 22:44:56 - Erroro
+"2021-07-14 22:05:30 - Starting CrudOperationSpringboot2Application using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 2807 (/Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2/target/classes started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
+""2021-07-14 22:05:30 - No active profile set, falling back to default profiles: default
+""2021-07-14 22:05:31 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-07-14 22:05:31 - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+""2021-07-14 22:05:32 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f461d5c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-07-14 22:05:32 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2021-07-14 22:05:32 - Tomcat initialized with port(s): 8080 (http)
+""2021-07-14 22:05:32 - Starting service [Tomcat]
+""2021-07-14 22:05:32 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+""2021-07-14 22:05:32 - Initializing Spring embedded WebApplicationContext
+""2021-07-14 22:05:32 - Root WebApplicationContext: initialization completed in 1913 ms
+""2021-07-14 22:05:33 - HikariPool-1 - Starting...
+""2021-07-14 22:05:33 - HikariPool-1 - Start completed.
+""2021-07-14 22:05:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-07-14 22:05:33 - HHH000412: Hibernate ORM core version 5.4.32.Final
+""2021-07-14 22:05:34 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-07-14 22:05:34 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2021-07-14 22:05:34 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-07-14 22:05:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:05:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-07-14 22:05:36 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-07-14 22:05:36 - Started CrudOperationSpringboot2Application in 6.125 seconds (JVM running for 6.783)
+""2021-07-14 22:08:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-07-14 22:08:40 - Initializing Servlet 'dispatcherServlet'
+""2021-07-14 22:08:40 - Completed initialization in 2 ms
+""2021-07-14 22:08:40 - 399daa63-ebe1-4f3c-8886-c57ae16f039e
+""2021-07-14 22:08:40 - Unknown Exception
+""2021-07-14 22:10:40 - Starting CrudOperationSpringboot2Application using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 2918 (/Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2/target/classes started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
+""2021-07-14 22:10:40 - No active profile set, falling back to default profiles: default
+""2021-07-14 22:10:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-07-14 22:10:40 - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+""2021-07-14 22:10:41 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fdd6de69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-07-14 22:10:41 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2021-07-14 22:10:41 - Tomcat initialized with port(s): 8080 (http)
+""2021-07-14 22:10:41 - Starting service [Tomcat]
+""2021-07-14 22:10:41 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+""2021-07-14 22:10:41 - Initializing Spring embedded WebApplicationContext
+""2021-07-14 22:10:41 - Root WebApplicationContext: initialization completed in 1083 ms
+""2021-07-14 22:10:41 - HikariPool-1 - Starting...
+""2021-07-14 22:10:41 - HikariPool-1 - Start completed.
+""2021-07-14 22:10:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-07-14 22:10:41 - HHH000412: Hibernate ORM core version 5.4.32.Final
+""2021-07-14 22:10:41 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-07-14 22:10:42 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2021-07-14 22:10:42 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-07-14 22:10:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:10:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-07-14 22:10:43 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+""2021-07-14 22:10:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:10:43 - HikariPool-1 - Shutdown initiated...
+""2021-07-14 22:10:43 - HikariPool-1 - Shutdown completed.
+""2021-07-14 22:10:43 - Stopping service [Tomcat]
+""2021-07-14 22:10:43 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2021-07-14 22:10:43 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+""2021-07-14 22:10:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:10:44 - HikariPool-1 - Shutdown initiated...
+""2021-07-14 22:10:44 - HikariPool-1 - Shutdown completed.
+""2021-07-14 22:10:50 - Starting CrudOperationSpringboot2Application using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 2931 (/Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2/target/classes started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
+""2021-07-14 22:10:50 - No active profile set, falling back to default profiles: default
+""2021-07-14 22:10:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-07-14 22:10:51 - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+""2021-07-14 22:10:51 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$40bb3769] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-07-14 22:10:51 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2021-07-14 22:10:51 - Tomcat initialized with port(s): 8080 (http)
+""2021-07-14 22:10:51 - Starting service [Tomcat]
+""2021-07-14 22:10:51 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+""2021-07-14 22:10:51 - Initializing Spring embedded WebApplicationContext
+""2021-07-14 22:10:51 - Root WebApplicationContext: initialization completed in 1110 ms
+""2021-07-14 22:10:51 - HikariPool-1 - Starting...
+""2021-07-14 22:10:52 - HikariPool-1 - Start completed.
+""2021-07-14 22:10:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-07-14 22:10:52 - HHH000412: Hibernate ORM core version 5.4.32.Final
+""2021-07-14 22:10:52 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-07-14 22:10:52 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2021-07-14 22:10:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-07-14 22:10:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:10:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-07-14 22:10:53 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-07-14 22:10:53 - Started CrudOperationSpringboot2Application in 3.149 seconds (JVM running for 3.63)
+""2021-07-14 22:11:06 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-07-14 22:11:06 - Initializing Servlet 'dispatcherServlet'
+""2021-07-14 22:11:06 - Completed initialization in 2 ms
+""2021-07-14 22:11:06 - info
+""2021-07-14 22:11:06 - warn
+""2021-07-14 22:11:06 - Erroro
+""2021-07-14 22:11:06 - inside method getusers
+""2021-07-14 22:14:18 - Application shutdown requested.
+""2021-07-14 22:14:18 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:14:18 - HikariPool-1 - Shutdown initiated...
+""2021-07-14 22:14:18 - HikariPool-1 - Shutdown completed.
+""2021-07-14 22:14:26 - Starting CrudOperationSpringboot2Application using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 3002 (/Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2/target/classes started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
+""2021-07-14 22:14:26 - No active profile set, falling back to default profiles: default
+""2021-07-14 22:14:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-07-14 22:14:26 - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+""2021-07-14 22:14:27 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$49778d30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-07-14 22:14:27 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2021-07-14 22:14:27 - Tomcat initialized with port(s): 8080 (http)
+""2021-07-14 22:14:27 - Starting service [Tomcat]
+""2021-07-14 22:14:27 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+""2021-07-14 22:14:27 - Initializing Spring embedded WebApplicationContext
+""2021-07-14 22:14:27 - Root WebApplicationContext: initialization completed in 1070 ms
+""2021-07-14 22:14:27 - HikariPool-1 - Starting...
+""2021-07-14 22:14:27 - HikariPool-1 - Start completed.
+""2021-07-14 22:14:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-07-14 22:14:27 - HHH000412: Hibernate ORM core version 5.4.32.Final
+""2021-07-14 22:14:28 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-07-14 22:14:28 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2021-07-14 22:14:28 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-07-14 22:14:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:14:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-07-14 22:14:29 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-07-14 22:14:29 - Started CrudOperationSpringboot2Application in 3.194 seconds (JVM running for 3.983)
+""2021-07-14 22:14:47 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-07-14 22:14:47 - Initializing Servlet 'dispatcherServlet'
+""2021-07-14 22:14:47 - Completed initialization in 2 ms
+""2021-07-14 22:14:47 - info
+""2021-07-14 22:14:47 - warn
+""2021-07-14 22:14:47 - Erroro
+""2021-07-14 22:14:47 - inside method getusers
+""2021-07-14 22:19:15 - info
+""2021-07-14 22:19:15 - warn
+""2021-07-14 22:19:15 - Erroro
+""2021-07-14 22:19:15 - inside method getusers
+""2021-07-14 22:19:17 - info
+""2021-07-14 22:19:17 - warn
+""2021-07-14 22:19:17 - Erroro
+""2021-07-14 22:19:17 - inside method getusers
+""2021-07-14 22:19:20 - info
+""2021-07-14 22:19:20 - warn
+""2021-07-14 22:19:20 - Erroro
+""2021-07-14 22:19:20 - inside method getusers
+""2021-07-14 22:19:21 - info
+""2021-07-14 22:19:21 - warn
+""2021-07-14 22:19:21 - Erroro
+""2021-07-14 22:19:21 - inside method getusers
+""2021-07-14 22:19:24 - info
+""2021-07-14 22:19:24 - warn
+""2021-07-14 22:19:24 - Erroro
+""2021-07-14 22:19:24 - inside method getusers
+""2021-07-14 22:19:27 - info
+""2021-07-14 22:19:27 - warn
+""2021-07-14 22:19:27 - Erroro
+""2021-07-14 22:19:27 - inside method getusers
+""2021-07-14 22:19:28 - info
+""2021-07-14 22:19:28 - warn
+""2021-07-14 22:19:28 - Erroro
+""2021-07-14 22:19:28 - inside method getusers
+""2021-07-14 22:19:29 - info
+""2021-07-14 22:19:29 - warn
+""2021-07-14 22:19:29 - Erroro
+""2021-07-14 22:19:29 - inside method getusers
+""2021-07-14 22:19:30 - info
+""2021-07-14 22:19:30 - warn
+""2021-07-14 22:19:30 - Erroro
+""2021-07-14 22:19:30 - inside method getusers
+""2021-07-14 22:19:30 - info
+""2021-07-14 22:19:30 - warn
+""2021-07-14 22:19:30 - Erroro
+""2021-07-14 22:19:30 - inside method getusers
+""2021-07-14 22:19:31 - info
+""2021-07-14 22:19:31 - warn
+""2021-07-14 22:19:31 - Erroro
+""2021-07-14 22:19:31 - inside method getusers
+""2021-07-14 22:19:32 - info
+""2021-07-14 22:19:32 - warn
+""2021-07-14 22:19:32 - Erroro
+""2021-07-14 22:19:32 - inside method getusers
+""2021-07-14 22:19:33 - info
+""2021-07-14 22:19:33 - warn
+""2021-07-14 22:19:33 - Erroro
+""2021-07-14 22:19:33 - inside method getusers
+""2021-07-14 22:19:33 - info
+""2021-07-14 22:19:33 - warn
+""2021-07-14 22:19:33 - Erroro
+""2021-07-14 22:19:33 - inside method getusers
+""2021-07-14 22:21:12 - inside save api
+""2021-07-14 22:21:12 - after save
+""2021-07-14 22:21:12 - inside service save api
+""2021-07-14 22:30:44 - inside save api
+""2021-07-14 22:30:44 - after save
+""2021-07-14 22:30:44 - inside service save api
+""2021-07-14 22:31:44 - Application shutdown requested.
+""2021-07-14 22:31:44 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:31:44 - HikariPool-1 - Shutdown initiated...
+""2021-07-14 22:31:44 - HikariPool-1 - Shutdown completed.
+""2021-07-14 22:32:00 - Starting CrudOperationSpringboot2Application using Java 1.8.0_261 on Abhinavs-MacBook-Pro.local with PID 3261 (/Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2/target/classes started by abhinavsingh in /Users/abhinavsingh/Desktop/SpringBoot2CrudPostgrese/CrudOperationSpringboot2)
+""2021-07-14 22:32:00 - No active profile set, falling back to default profiles: default
+""2021-07-14 22:32:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-07-14 22:32:00 - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+""2021-07-14 22:32:00 - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$28bec712] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2021-07-14 22:32:01 - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2021-07-14 22:32:01 - Tomcat initialized with port(s): 8080 (http)
+""2021-07-14 22:32:01 - Starting service [Tomcat]
+""2021-07-14 22:32:01 - Starting Servlet engine: [Apache Tomcat/9.0.48]
+""2021-07-14 22:32:01 - Initializing Spring embedded WebApplicationContext
+""2021-07-14 22:32:01 - Root WebApplicationContext: initialization completed in 1077 ms
+""2021-07-14 22:32:01 - HikariPool-1 - Starting...
+""2021-07-14 22:32:01 - HikariPool-1 - Start completed.
+""2021-07-14 22:32:01 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-07-14 22:32:01 - HHH000412: Hibernate ORM core version 5.4.32.Final
+""2021-07-14 22:32:01 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-07-14 22:32:01 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+""2021-07-14 22:32:02 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-07-14 22:32:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-07-14 22:32:02 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-07-14 22:32:03 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-07-14 22:32:03 - Started CrudOperationSpringboot2Application in 3.317 seconds (JVM running for 4.099)
+""2021-07-14 22:32:17 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-07-14 22:32:17 - Initializing Servlet 'dispatcherServlet'
+""2021-07-14 22:32:17 - Completed initialization in 2 ms
+""2021-07-14 22:32:17 - info
+""2021-07-14 22:32:17 - warn
+""2021-07-14 22:32:17 - Erroro
+""2021-07-14 22:32:17 - inside method getusers
+""2021-07-14 22:32:55 - inside save api
+""2021-07-14 22:32:55 - after save
+""2021-07-14 22:32:55 - inside service save api
+""2021-07-14 22:33:15 - info
+""2021-07-14 22:33:15 - warn
+""2021-07-14 22:33:15 - Erroro
+""2021-07-14 22:33:15 - inside method getusers
 "

@@ -7,6 +7,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -127,6 +128,17 @@ public class AppController {
 	
 	
 	
+	@GetMapping("/getusersfromcache")
+	@Cacheable("getusersfromcache")
+	public List<User> getUsercache() {
+		
+		logger.trace("trace");
+		logger.debug("debug");
+		logger.info("info");
+		logger.warn("warn");
+		logger.error("Erroro");
+		return userCrudService.getUsers();	
+	}
 	
 	
 
